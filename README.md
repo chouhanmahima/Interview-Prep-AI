@@ -23,7 +23,20 @@
 ![Home Page Screenshot](./images/Home-screen-1.png)
 ![Home Page Screenshot](./images/Home-screen-2.png)
 
+#### Sign Up
+![Sign Up](./images/Signup.png)
 
+#### Login
+![Login](./images/Login.png)
+
+#### Dashboard
+![Dashboard](./images/Dashboard.png)
+
+#### Add New Search Interview Data
+![Add New Interview](./images/Add-new-interview.png)
+
+#### AI Generated Data
+![AI Generated Data](./images/AI-Generated-Data.png)
 
 ---
 
@@ -109,13 +122,13 @@ interview-prep-ai/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Lovenoelkujur/Interview-Prep-AI.git
+git clone https://github.com/chouhanmahima/Interview-Prep-AI
 cd interview-prep-ai
 ```
 
 #### 2. Add Environment Variables
 ```bash
-PORT=5000
+PORT=3030
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 GEMINI_API_KEY=your_gemini_api_key
@@ -135,14 +148,17 @@ npm run dev
 cd ../client
 npm start
 ```
-
+#### 4. live Link
+```bash
+    https://interview-prep-ai-frontend-86tn.onrender.com
+```
 ---
 
 ## 🔐 Environment Variables
 
 | Variable         | Description                       |
 | ---------------- | --------------------------------- |
-| `PORT`           | Server port (default: 5000)       |
+| `PORT`           | Server port (default: 3030)       |
 | `MONGO_URI`      | MongoDB connection URI            |
 | `JWT_SECRET`     | Secret key for signing JWTs       |
 | `GEMINI_API_KEY` | API key for Gemini AI integration |
